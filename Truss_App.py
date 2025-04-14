@@ -25,7 +25,6 @@ class MainWindow(Ui_TrussStructuralDesign,qtw.QWidget):
 
         self.show()
 
-
     def setZoom(self):
         self.gv_Main.resetTransform()
         self.gv_Main.scale(self.spnd_Zoom.value(), self.spnd_Zoom.value())

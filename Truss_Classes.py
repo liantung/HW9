@@ -571,4 +571,3 @@ class TrussController():
         self.view.buildScene(truss=self.truss)
 
 #endregion
-
